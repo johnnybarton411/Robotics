@@ -3,7 +3,6 @@
   "python.linting.enabled": true,
   "python.linting.pylintArgs": [
     "--extension-pkg-whitelist=pygame"
-
   ],
   "python.linting.ignorePatterns": [
     ".vscode/*.py",
