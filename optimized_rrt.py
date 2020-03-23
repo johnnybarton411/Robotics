@@ -209,7 +209,6 @@ def main():
     # put these into initPygame() function
     # set background of pygame window to white
     PY_WINDOW.fill(WHITE)
-    print(WHITE)
     # display starting point with red circle
     pygame.draw.circle(PY_WINDOW, RED, (X_START, Y_START), 10, 0)
     # display destination point with green circle
