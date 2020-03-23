@@ -1,0 +1,13 @@
+{
+  "python.pythonPath": "./env/bin/python3",
+  "python.linting.enabled": true,
+  "python.linting.pylintArgs": [
+    "--extension-pkg-whitelist=pygame"
+
+  ],
+  "python.linting.ignorePatterns": [
+    ".vscode/*.py",
+    "**/site-packages/**/*.py",
+    "pursuit-evasion.py"
+  ]
+}
